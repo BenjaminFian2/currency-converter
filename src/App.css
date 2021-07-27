@@ -97,3 +97,41 @@ Footer {
   font-size: 25px;
   margin-left: 0;
 }
+
+/*Smartphone*/
+@media (max-width: 767px) AND (min-width: 320px) {
+  h1 {
+    font-size: 30px;
+    margin: 20px 10px 80px;
+  }
+
+  button {
+    margin: 30px;
+  }
+
+  img {
+    width: 60px;
+  }
+
+  input,
+  select {
+    font-size: 15px;
+    margin-right: 10px;
+  }
+
+  input {
+    height: 20px;
+  }
+
+  select {
+    height: 40px;
+  }
+
+  Footer {
+    margin-top: 150px;
+  }
+
+  .Footer p {
+    font-size: 15px;
+  }
+}
